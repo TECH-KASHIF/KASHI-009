@@ -1,2 +1,2 @@
 import Jan
-import KASHI
+import KASHI('python Jan.py')
