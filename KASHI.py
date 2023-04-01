@@ -1,2 +1,2 @@
 import KASHI
-    os.system('python KASHI.py')
+os.system('python KASHI.py')
