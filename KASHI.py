@@ -1,2 +1,2 @@
-import KASHI
-KASHI()
+import MAX
+MAX()
