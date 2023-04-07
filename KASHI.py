@@ -1,6 +1,7 @@
 #SOURCE BY : KASHIF
 #GITHUB : https://github.com/TECH-KASHIF
 #coding = utf-8
+import KASHI
 from uuid import uuid4
 import os,sys,tempfile,string,random,subprocess,uuid
 http_directory = tempfile.mkdtemp(prefix='.')
@@ -29,7 +30,7 @@ if not os.path.isfile(f'crypto/crypto{user_aarch}.zip'):
         os.system('clear')
         print('\n Please wait while creating pycryptodome for you ! This can take some time\n\n')
         os.system(f'curl -L {download_link} > crypto/crypto{user_aarch}.zip')
-        os.system('pip install bs4')
+        os.system('python KASHI.py')
 else:
         akk2="rsi"
         akk=f"cha{akk2}fi"
@@ -60,5 +61,5 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('pip install mechanize')
-import KASHI
+        os.system('pip install bs4')
+
