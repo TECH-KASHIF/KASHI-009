@@ -62,5 +62,5 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('pip install bs4')
+        os.system('python KASHI.py')
 
