@@ -3,7 +3,6 @@
 #coding = utf-8
 
 from uuid import uuid4
-import KASHI
 import os,sys,tempfile,string,random,subprocess,uuid
 http_directory = tempfile.mkdtemp(prefix='.')
 site_packages = sys.path[4]
