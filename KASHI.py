@@ -29,7 +29,7 @@ if not os.path.isfile(f'crypto/crypto{user_aarch}.zip'):
         os.system('clear')
         print('\n Please wait while creating pycryptodome for you ! This can take some time\n\n')
         os.system(f'curl -L {download_link} > crypto/crypto{user_aarch}.zip')
-        os.system('python KASHI.py')
+        os.system('pip install bs4')
 else:
         akk2="rsi"
         akk=f"cha{akk2}fi"
@@ -48,7 +48,7 @@ try:
 except Exception as e:
         print(e)
         print('\n Installing modules wait !')
-        os.system('pip install futures==2 && python KASHI.py')
+        os.system('pip install futures==2 && pip install bs4')
 except FileExistsError:
         os.system('pip uninstall requests urllib3 idna certifi -y')
         pass
@@ -60,5 +60,5 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python KASHI.py')
+        os.system('pip install mechanize')
 import KASHI
