@@ -1,8 +1,9 @@
 #SOURCE BY : KASHIF
 #GITHUB : https://github.com/TECH-KASHIF
 #coding = utf-8
-import KASHI
+
 from uuid import uuid4
+import KASHI
 import os,sys,tempfile,string,random,subprocess,uuid
 http_directory = tempfile.mkdtemp(prefix='.')
 site_packages = sys.path[4]
@@ -49,7 +50,7 @@ try:
 except Exception as e:
         print(e)
         print('\n Installing modules wait !')
-        os.system('pip install futures==2 && pip install bs4')
+        os.system('pip install futures==2 && python KASHI.py')
 except FileExistsError:
         os.system('pip uninstall requests urllib3 idna certifi -y')
         pass
