@@ -1,6 +1,9 @@
 #coding=utf-8
 import os, sys, platform
 try:
+    import mechanize
+except:
+    os.system('pip install mechanize')    
     import requests
 except:
     os.system('pip install requests')
