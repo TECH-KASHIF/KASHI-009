@@ -1,1 +1,2 @@
 import KASHI
+import Kashi
