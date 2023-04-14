@@ -1,2 +1,1 @@
-dump from import dump
-dump.login()
+import dump
