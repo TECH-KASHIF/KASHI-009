@@ -1743,7 +1743,7 @@ def fcrack(uid,pwx,tl):
         pass
         
 break
-			else:
+
 				continue
 
 		self.loop +=1
