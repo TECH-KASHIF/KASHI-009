@@ -1742,34 +1742,48 @@ def fcrack(uid,pwx,tl):
     except:
         pass
         
-def approval():
-  key1=open('/data/data/com.termux/files/usr/bin/.mrKASHIF -cov', 'r').read()
-  os.system('clear')
-  print(logo)
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "-".join(uuid)
+break
+			else:
+				continue
 
-  try:
-    r1 = requests.get('https://github.com/TECH-KASHIF/KASHI-009/blob/main/Approval.txt').text
-    if key1 in r1:
-      print("\33[1;32mYOUR KEY IS APPROVED.")
-      msg = str(os.geteuid())
-      time.sleep(0.5)
-      kashif()
-      pass
-    else:
-      print("YOUR KEY : "+ak+ah+key1 )
-      print('\33[1;37m----------------------------------------------')
-      print("\33[1;32mNOTE:")
-      print("\33[1;37m----------------------------------------------")
-      print("\33[1;37mTOOL IS FREE BUT YOU HAVE TO\nGET APPROVAL FIRST.")
-      print('\33[1;37m----------------------------------------------')
-      print ('IF U DONT WANT TO BUY PLS DONT PRESS ENTER')
-      input('IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+923498410573?text='+tks),approval()
-      time.sleep(1)
-      approval()
-  except:
-    sys.exit()
+		self.loop +=1
 
-kashif()
+
+def Subscraption():
+	key1=open('/data/data/com.termux/files/usr/bin/.mrKASHIF -cov', 'r').read()
+	clear()
+	print(logo)
+	r1=requests.get("https://github.com/TECH-KASHIF/HACKER/blob/main/Apv.txt").text
+	if key1 in r1:
+		os.system('clear')
+		print(logo)
+		Main()
+	else:
+		os.system("clear")
+		print(logo)
+		print("\t \033[1;32m First Get Approvel\033[1;37m ")
+		time.sleep(1)
+		os.system("clear")
+		print(logo)
+		print ("")
+		print(" \033[1;32mKASHIF Toll Free BUT You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m Note :KASHIF FREE HA BHAIYO ENJOYA   \033[1;37m")
+		print ("")
+		print(" Your Key is Not Approved ")
+		print("")
+		print(" Copy And Send Key To Admin")
+		print ("")
+		print (" Your Key : "+ak+ah+key1 )
+		print ("")
+		name = input(" Your Name : ")
+		print ("")
+		gf = input(" Your gf Name : ")
+		print ("")
+		lol = input(" Your Your Email : ")
+		print ("")
+		input(" Press Enter To Send Key")
+		time.sleep(3.5)
+		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ah+key1
+		os.system('am start https://wa.me/+923081851371?text=' + tks)
+		Subscraption()        
+Subscraption()
